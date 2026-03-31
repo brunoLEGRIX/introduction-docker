@@ -67,11 +67,11 @@ Dans ce cours nous verrons comment utiliser Docker pour le développement d'appl
 - [Page de documentation principale de docker](https://docs.docker.com/). Ce site contient :
     - [Guide d'installation de docker sur plussieurs plate-formes](https://docs.docker.com/get-docker/)
     - [Manuel d'initiation à docker](https://docs.docker.com/get-started/)
-- [Cours d'introduction à git et github](https://juanluck.github.io/Introduction-GIT/)
+- [Cours d'introduction à git et github](https://brunolegrix.github.io/Introduction-GIT/)
 
 
 - Cette documentation a été rédigée par notre collègue Juanlu qui travaille maintenant à Grenade en Espagne. 
-  Voici le lien originel de la documentation :  [Juanlu](https://juanluck.github.io/introduction-docker/).
+  Voici le lien originel de la documentation :  [Juanlu](https://brunolegrix.github.io/introduction-docker/).
   
   
 [Haut de la page](#main)
