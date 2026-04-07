@@ -30,7 +30,7 @@ $ docker cp <id>:<fichier> . // Cela copie le fichier <fichier> du conteneur dan
 ```
 
 <div id="tip">
-<p>Le résumé ci-dessus est pour référence. Pour le moment, vous n'avez pas besoin de comprendre la signification de ces commandes. Nous allons les travailler dans ce tutoriel.</p>
+<p>Le résumé ci-dessus peut servir de référence. Pour le moment, vous n'avez pas besoin de comprendre la signification de ces commandes. Nous allons les travailler dans ce tutoriel.</p>
 </div>
 
 ---
@@ -222,7 +222,7 @@ docker run httpd
 
 - Tapez CTRL-C pour arrêter le conteneur.
 
-Ce dont nous avons besoin pour rendre ce service accessible, c'est de mapper le port 80 sur le conteneur à un port donné sur la machine hôte. **Si vous êtes dans une machine de l'IUT, n'oubliez pas de voir [ce petit tuto](https://juanluck.github.io/introduction-docker/instructions-di-docker.html) pour connaitre le port que vous allez utiliser.** Passons maintenant au lancement d'un service accessible :
+Ce dont nous avons besoin pour rendre ce service accessible, c'est de mapper le port 80 sur le conteneur à un port donné sur la machine hôte. **Si vous êtes dans une machine de l'IUT, n'oubliez pas de voir [ce petit tuto](https://brunolegrix.github.io/introduction-docker/instructions-di-docker.html) pour connaitre le port que vous allez utiliser.** Passons maintenant au lancement d'un service accessible :
 
 - Exécutez l'instruction suivante _**(avant de l'exécuter lire la signification des paramètres)**_ :
 ```
@@ -233,7 +233,7 @@ docker run --name httpd-<votre nom> -d -p <port hôte>:80 httpd
     - ```--name httpd-<votre nom>``` : ce paramètre vous permet de nommer le conteneur avec le nom de votre choix. Assez utile pour le localiser ultérieurement, surtout si vous travaillez sur une machine à l'IUT. Remplacez ```<votre nom>``` par, imaginez quoi... votre nom !
     - ```-d``` : ce paramètre permet d'exécuter le conteneur en arrière-plan (_dettached_).
     - ```-p <port hôte>:80``` : Avec ce paramètre, nous permettons de mapper un port de l'hôte avec un port du conteneur.
-         - À gauche des deux-points ```:```, nous indiquons le port qui sera exposé sur l'hôte. Si vous travaillez avec votre machine personnelle, ce port peut être par exemple le 8080. Si vous travaillez sur une machine de l'IUT, deux personnes ne peuvent pas utiliser le même port. Pour éviter les conflits et garantir que chaque étudiant à l'IUT dispose d'un port différent, suivez [ce tutoriel.](https://juanluck.github.io/introduction-docker/instructions-di-docker.html)
+         - À gauche des deux-points ```:```, nous indiquons le port qui sera exposé sur l'hôte. Si vous travaillez avec votre machine personnelle, ce port peut être par exemple le 8080. Si vous travaillez sur une machine de l'IUT, deux personnes ne peuvent pas utiliser le même port. Pour éviter les conflits et garantir que chaque étudiant à l'IUT dispose d'un port différent, suivez [ce tutoriel.](https://brunolegrix.github.io/introduction-docker/instructions-di-docker.html)
         - À droite des deux-points ```:```, Nous indiquons le port du conteneur qui sera exposé. Dans le cas du protocole http, ce port sera 80.
     - ```httpd``` : enfin, nous indiquons l'image que nous voulons lancer.
 
