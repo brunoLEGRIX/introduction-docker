@@ -125,12 +125,12 @@ docker rm b8f8f406b03c
 
 ### 1.2. Installer un service apache à partir d'une image vierge debian
 
-L'exemple dockerfile ci-dessus est très simple, puisque l'image httpd est préconfigurée pour lancer un service apache. Cependant, **pourrait-on configurer une image avec le service apache à partir d'une image debian sur laquelle apache n'est pas installé ?** La réponse est oui et nous apprendrons comment dans cette section.
+L'exemple dockerfile ci-dessus est très simple, puisque l'image httpd est préconfigurée pour lancer un service apache. Cependant, **pourrait-on configurer une image avec le service apache à partir d'une image debian sur laquelle apache n'est pas installé ?** La réponse est oui et nous apprendrons comment faire dans cette section.
 
 - Voir ci-dessous le dockerfile correspondant :
 
 ```
-# Utiliser l'image debia officielle comme image parent
+# Utiliser l'image debian officielle comme image parent
 FROM debian:latest
 
 # Installer des services et des packages
@@ -194,7 +194,7 @@ Ne restez pas là. Étudiez bien la structure des répertoires et le contenu des
 
 ## 3. Un point sur Docker compose
 
-Ce cours se termine ici, mais il vaut la peine de faire un point rapide sur des autres outils Docker dans le cas où vous souhaitez continuer vos recherches au-delà du Dockerfile.
+Ce cours se termine ici, mais il vaut la peine de faire un point rapide sur d'autres outils Docker dans le cas où vous souhaitez continuer vos recherches au-delà du Dockerfile.
 
 Il existe des services, tels que Apache + MariaDB + PHP que nous avons vus, qui ne sont en fait pas un mais plusieurs services. Dans ces cas, normalement, nous n'allons pas les gérer avec un seul conteneur mais avec plusieurs conteneurs qui interagissent les uns avec les autres. On parle de services multi-conteneurs. Dans ce cas, **Docker Compose** est un outil permettant de définir et d'exécuter des applications Docker multi-conteneurs.
 
