@@ -47,11 +47,11 @@
 
 ## 5. Date limite pour le dépôt du projet
 
-- **Date (Vendredi 2 Mai 2025)**
+- **Date (Mardi 28 Avril 2026 à 23h59)**
 
 ## 6. Soutenances
 
-- Dans la soutenance, chaque équipe disposera d'un temps compris entre 10 et 15 minutes.
+- Dans la soutenance, chaque équipe disposera d'un temps compris entre 12 et 18 minutes.
 
 - En utilisant le site web du projet comme support, le format de la présentation consistera en une brève explication du projet et une démonstration pratique.
 
@@ -59,8 +59,6 @@
 [Haut de la page](#main)
 
 ---
-
-
 
 <style type="text/css" media="screen">
    #tip {
