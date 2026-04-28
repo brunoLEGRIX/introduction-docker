@@ -5,9 +5,9 @@
 
 ## 1. Objectif
 
-- Ce projet consiste à proposer l'installation d'un service réseau à l'aide de docker. Avant de commencer le projet, l'étudiant doit suivre le cours d'[introduction à docker](https://abderzah.github.io/introduction-docker/) qui, associé aux ressources Web proposées dans la SAE, expliquera les concepts nécessaires à la réalisation du projet.
+- Ce projet consiste à proposer l'installation d'un service réseau à l'aide de docker. Avant de commencer le projet, l'étudiant doit suivre le cours d'[introduction à docker](https://brunoLEGRIX.github.io/introduction-docker/) qui, associé aux ressources Web proposées dans la SAE, expliquera les concepts nécessaires à la réalisation du projet.
 
-- Le projet à réaliser est au choix de chaque équipe, mais il doit être lié à l'installation des services réseaux. Dans le cours, un projet est proposé à titre d'exemple ([sur ce lien](https://github.com/abderzah/exempleDockerfile/)).
+- Le projet à réaliser est au choix de chaque équipe, mais il doit être lié à l'installation des services réseaux. Dans le cours, un projet est proposé à titre d'exemple ([sur ce lien](https://github.com/brunoLEGRIX/exempleDockerfile/)).
 
 - En guise d'aide, nous proposons ci-dessous une série de sujets (avec un niveau de complexité différent) qui peuvent être abordés dans le projet.  Cela ne vous empêche pas de choisir un sujet différent :
     - [Service LDAP](https://fr.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
@@ -26,24 +26,24 @@
 - Le projet doit fournir un seul service et non plusieurs. Cela signifie plusieurs choses :
     - Nous allons utiliser un seul dockerfile et non des outils plus avancés comme docker compose ou docker swarm.
     - Cela signifie que le conteneur ne doit fournir qu'un seul service, par exemple un serveur à la demande, et non plusieurs.
-    - En ce sens, le projet devrait ressembler un peu à l'exemple d'un [serveur Apache vu en cours](https://github.com/abderzah/exempleDockerfile/) mais avec un peu plus de complexité.
+    - En ce sens, le projet devrait ressembler un peu à l'exemple d'un [serveur Apache vu en cours](https://github.com/brunoLEGRIX/exempleDockerfile/) mais avec un peu plus de complexité.
  
 
 ## 3. Instructions pour le rapport de projet
 
-- Comme nous l'avons déjà vu dans [le cours d'introduction à git (tp5)](https://abderzah.github.io/Introduction-GIT/tp5/#sae), chaque équipe va créer un dépôt ```docker-sae203``` sur github.
+- Comme nous l'avons déjà vu dans [le cours d'introduction à git (tp5)](https://brunoLEGRIX.github.io/Introduction-GIT/tp5/#sae), chaque équipe va créer un dépôt ```docker-sae203``` sur github.
 
 - Ce référentiel ```docker-sae203``` nous servira à la fois pour stocker notre projet ainsi que le site web :
     - Dans la branche principale, nous aurons le projet docker qui devrait au moins contenir deux fichiers (peut être plus) :
         - Dockerfile
-        - README.md : Avec les instructions d'installation. Voir [ce site comme exemple](https://github.com/abderzah/exempleDockerfile/)
-    - Dans la branche ```gh-pages```, nous allons héberger le site web du projet. Vous pouvez voir [le tp5 de l'introduction à git](https://abderzah.github.io/Introduction-GIT/tp5/) comme guide.
+        - README.md : Avec les instructions d'installation. Voir [ce site comme exemple](https://github.com/brunoLEGRIX/exempleDockerfile/)
+    - Dans la branche ```gh-pages```, nous allons héberger le site web du projet. Vous pouvez voir [le tp5 de l'introduction à git](https://brunoLEGRIX.github.io/Introduction-GIT/tp5/) comme guide.
 
 - Le site web sera à la fois le compte-rendu du projet ainsi que le support de la présentation de votre soutenance.
 
 ## 4. Dépôt du projet
 
-- Pour déposer votre projet, allez sur [ce dépôt github](https://github.com/abderzah/SAE203-depot-de-projets-2025/) et suivez les instructions.
+- Pour déposer votre projet, allez sur [ce dépôt github](https://github.com/brunoLEGRIX/SAE203-depot-de-projets-2026/) et suivez les instructions.
 
 ## 5. Date limite pour le dépôt du projet
 
